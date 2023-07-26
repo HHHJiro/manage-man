@@ -1,5 +1,5 @@
 // import { useState } from 'react'
-import {useRoutes, Link} from "react-router-dom"
+import {useRoutes} from "react-router-dom"
 import routers from "./router";
 
 function App() {
@@ -8,12 +8,7 @@ function App() {
 
     return (
 
-        <div className="App">
-
-            <Link to="/home">home</Link>
-            <br/>
-            <Link to="/about">about</Link>
-            //占位符 用于显示路由组件 类似于窗口
+        <div >
             {outlet}
         </div>
 

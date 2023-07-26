@@ -1,6 +1,5 @@
 import React, {lazy} from "react";
 import {Navigate} from "react-router-dom"
-
 const Home = lazy(() => import("../view/home"));
 const About = lazy(() => import("../view/about"));
 
